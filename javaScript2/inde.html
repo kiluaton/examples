@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Ejercicio acoplamiento Javascript">
+    
+
+</head>
+
+    <body>
+        
+<p><a style='cursor: pointer;' onclick="muestra_oculta('SUMA')" title="">Quieres Sumar?</a></p> 
+    <div id="SUMA">  
+            <input type="number" id='numero1' >
+            <input type="number"  id='numero2' >
+            <button onclick="botonSumar()"  >SUMAR </button>
+    </div>
+
+
+<p><a style='cursor: pointer;' onclick="muestra_oculta('RESTA')" title="">Quieres Restar?</a></p>
+    <div id="RESTA">
+            <input type="number" id='numero3' >
+            <input type="number" id='numero4' >
+            <button onclick="botonRestar()" >RESTAR </button>
+    </div>
+
+
+<p><a style='cursor: pointer;' onclick="muestra_oculta('MULT')" title="">Quieres Multiplicar?</a></p>
+    <div id="MULT">
+            <input type="number" id='numero5' >
+            <input type="number" id='numero6' >
+            <button onclick="botonMulti()" >MULT </button>
+    </div>
+
+
+
+
+    <div id="contenedor" class="contenedorClass">
+
+    </div>
+
+
+    </body>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"> </script>
+    <script src="inde.js"></script>
+</html>
