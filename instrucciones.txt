@@ -1,0 +1,7 @@
+ git add .    = para agregar archivos 
+"git add es para agregar nuevos archivos creados en esta carpeta y el punto " . " 
+define TODOS los archivos nuevos pudiendo reemplazar el punto por un archivo especifico pero no es el caso "
+git commit -m "comentario de los archivos subidos "
+git push              = para subir los archivos al repositorio
+git pull         = para bajar los archivos que yo subo.
+siempre antes de ponerte a trabajar hay que hacer un git pull
