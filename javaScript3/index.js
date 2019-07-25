@@ -24,7 +24,7 @@ $('#contenedor').append( `<p><a style='cursor: pointer;' onclick="muestra_oculta
 <div id="RESTA">
         <input type="number" id='numero3' >
         <input type="number" id='numero4' >
-        <button onclick="botonRestar()" >MULTIPLICAR </button>
+        <button onclick="botonRestar()" >RESTAR </button>
 </div>`);
 
 function botonMulti() {
